@@ -51,5 +51,6 @@ class Fractie(object):
 fr1 = Fractie(1,2)
 fr2 = Fractie(1,3)
 
-fr3 = fr1 + fr2
+fr3 = fr1 - fr2
 print(fr3)
+print(fr3.inverse())
